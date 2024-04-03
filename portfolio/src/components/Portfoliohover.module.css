@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 682px;
+    background-color: red;
+    background-image:url('../assets/파도.webp') ;
+    background-size: cover; /* 이미지를 요소의 크기에 맞게 확대/축소하여 채웁니다. */
+    background-position: center; /* 이미지를 요소의 가운데에 위치시킵니다. */
+    background-repeat: no-repeat; /* 이미지를 반복하지 않습니다. */
+    z-index: 9;
+    border-radius: 8px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: 10;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 682px;
+    object-fit: cover;
+}
+.left > img{
+    width: 600px;
+    height: 300px;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+
+
+.right{
+    width: 50%;
+    height: 500px;
+    flex-grow: 1;
+    background-color: white;
+    align-self: center;
+    margin: 1rem 3rem 1rem 1rem;
+    box-shadow: 5px 5px 8px 8px gray;
+}
+
+
+
+
+
+
+
+
+.buttonDel{
+    display: none;
+}
+
+
+
+

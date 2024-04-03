@@ -1,0 +1,315 @@
+/* .skill{
+} */
+/* html, body{
+    overflow-y: auto;
+} */
+.skill_item{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 32px; */
+}
+.skill_h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.skill_img{
+    padding-right: 16px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+.bar_wrap{
+    width: 550px;
+    height: 30px;
+    position: relative;
+    /* position: absolute; */
+}
+.bar{
+    margin-left: 16px;
+    width: 550px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+
+.bar_html{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_html 1s linear forwards;
+}
+
+@keyframes bar_html {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.bar_js{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_js 1s linear forwards;
+}
+
+@keyframes bar_js {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.bar_react{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_react 1s linear forwards;
+}
+
+@keyframes bar_react {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.bar_firebase{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_firebase 1s linear forwards;
+}
+@keyframes bar_firebase {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.bar_figma{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_figma 1s linear forwards;
+}
+.bar_git{
+    margin-left: 16px;
+    /* width: 550px; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    animation: bar_git 1s linear forwards;
+}
+@keyframes bar_figma {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes bar_git {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+.main2_wrap{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    /* background-color: #8F5541; */
+    background-color: white;
+}
+
+.main2_content{
+    color: black;
+    font-size: 24px;
+}
+
+/* 항상 생각하고 고민하는 개발자가 되겠습니다. 부분 */
+.hag{
+    padding-right: 8px;
+
+}
+ .main2_content_item {
+    
+    animation: item 3s ease-in-out infinite;
+  }
+
+  @keyframes item {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-10px);
+    }
+  }
+
+  .main2_content_item2 {
+    /* padding-left: 8px; */
+    font-size: 36px;
+    animation: item2 3s ease-in-out forwards;
+  }
+
+  @keyframes item2 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      color: #FFD700;
+    }
+  }
+  
+  .main2_content_item3 {
+    /* padding-left: 8px; */
+    font-size: 36px;
+    animation: item3 3s ease-in-out forwards;
+  }
+
+  @keyframes item3 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      color:  dodgerblue;
+    }
+  }
+  .bulbwrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* background-color: black; */
+  }
+  .bulbBe{
+    position: absolute;
+    left: 50px;
+    top: -20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    transform: rotate(-30deg);
+    animation: Be 3s linear forwards;
+    /* background-color: black; */
+  }
+  .bulbAf{
+    position: absolute;
+    
+    left: 50px;
+    top: -20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    transform: rotate(-30deg);
+    opacity: 0;
+    animation: Af 7s linear forwards;
+    /* background-color: black; */
+  }
+
+  @keyframes Af {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 40px;
+        top: -25px;
+        width: 30px;
+        height: 30px;
+    }
+  }
+  @keyframes Be {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+
+  @media screen and (max-width:500px ){
+    .item4{
+        display: block;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,167 @@
+/* nav , nav2 공통 */
+html,body{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.header_container {
+    width: 100%;
+    height: 80px;
+    /* border-bottom: 1px solid white; */
+    /* background-color: #8F5541; */
+    background-color:   #90EE90;
+    /* border-bottom: 1px solid white; */
+    /* color: white; */
+    position: relative;
+    z-index: 10;
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_container_jn{
+    background-color:  #90EE90;
+}
+.header_container_about{
+    background-color:   #FFE5B4;
+    color: #FF7F50;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.header_container_contact{
+    background-color: #4682B4;
+    color: #FFFDD0;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.header_container_portfolio{
+    background-color:  #D8BFD8;
+    color: #800080;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.header_container_features{
+    background-color: green;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.header_container1 {
+    width: 100%;
+    height: 80px;
+    /* border-bottom: 1px solid white; */
+    position: relative;
+    z-index: 10;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* nav */
+
+
+.nav_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.body_container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbtn1 {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.navbtn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* nav가 참이면 */
+.navbtn2 {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbtn3 {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+}
+/* nav가 참이면 끝 */
+
+
+.transition {
+    transition: all 0.5s ease-in-out; 
+  }
+
+  .black{
+    background-color: black;
+    color: white;
+}
+
+  .won{
+    position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: -50%;
+  left: 0;
+  animation: descend 2s linear forwards;
+}
+
+/* nav가 거짓일 때 */
+@keyframes descend {
+    0% {
+      top: -70%; /* Start position above the viewport */
+      opacity: 0;
+    }
+    50%{
+        top: -30%;
+        opacity: 0.5;
+    }
+    100% {
+      top: 0; /* End position at the center of the viewport */
+      opacity: 1;
+    }
+  }
+  .won1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
